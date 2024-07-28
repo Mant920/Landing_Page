@@ -1,8 +1,11 @@
 .section1{
     background-color: #1F2937;
     font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
 
 }
+/*Setting the font sizes, font colors and weights*/
 h1{
     font-size: 48px;
     font-weight:bolder;
@@ -13,7 +16,30 @@ h4{
     font-size: 24px;
     color: #f9faf8;
 }
-ul .secondary{
+
+.secondary{
     font-size: 18px;
     color: #e5e7eb;
 }
+ul{
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+/*Arranging upper content*/
+.upper_section{
+    display: flex;
+    justify-content:space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    align-items: center;
+
+}
+.list
+{
+    display: flex;
+    gap: 15px;
+    
+}
+
