@@ -165,6 +165,13 @@ button{
 .signup{
     border: 2px solid white;
     height: 50px;
-    
-    
+       
+}
+
+/*footer section*/
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
